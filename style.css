@@ -1,0 +1,180 @@
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-left{
+    margin:15px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+}
+.nav-right{
+    margin: 12px;
+    font-size: 20px;
+}
+.a-element{
+    padding: 8px;
+    margin: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+     /* To create space between home, services etc */
+}
+.home_text{
+    padding:150px;
+}
+.email{
+    display: inline-block;
+    width: 21%;
+    /* padding: 20px; */
+     padding: 14px 130px 14px 15px; 
+    border: 1px solid ridge;
+    outline: none;
+    border-radius: 30px;
+}
+body{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.submitt{
+    display: inline-block;
+    width: 5%;
+    padding: 5px;
+    border: 1px solid ridge;
+    outline: none;
+    border-radius: 30px;
+    position: absolute;
+    right:840px;
+}
+.back{
+    /* background-image: url("https://res.cloudinary.com/dlsi0ccj7/image/upload/t_Banner 16:9/v1698665485/Untitled_design_ydhuxm.png");  */
+    background-image: radial-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("https://res.cloudinary.com/dlsi0ccj7/image/upload/t_Banner 16:9/v1698664405/WhatsApp_Image_2023-10-30_at_4.42.11_PM_frzwmy.jpg" );  
+    background-size: cover; /* Adjust the image size as needed */
+    background-repeat: no-repeat;/* Prevent image repetition */
+     background-position: center;   
+     /* background-attachment: fixed; */
+     /* max: width 100px; */
+     padding-bottom: 100px;
+     /* Imp one above for fitting the screen how much ever we want */
+}
+body{
+    background-color:black;
+}
+.my-photo{
+    margin: 150px 10px 150px 150px;
+}
+.about{
+    background-color:#191919; 
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+     height:70vh; 
+     width:80%;
+     margin: 0px 200px 0px 140px;
+}
+.about-right{
+     padding: 0px 200px 0px 0px; 
+}
+.text1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-style: italic;
+     position: absolute;
+     right: 540px;
+     top:870px;
+     padding-bottom: 100px;
+     margin-bottom:100px;
+     color:blue;
+}
+.text2{
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-style: italic;
+     position: absolute;
+     right:220px;
+     top:930px;
+     /* color:blue; */
+}
+.connectt{
+    position: absolute;
+    right: 200px;
+     top:1050px;
+     display: inline-block;
+     width: 8%;
+     padding: 5px;
+     border: 1px solid ridge;
+     outline: none;
+     border-radius: 30px;
+     background-color: red; 
+}
+
+.skill{
+    text-align: center;
+    font-size: 45px;
+    padding: 30px; 
+    position: absolute;
+    right:200px;
+
+}
+.skull{
+    text-align: center;
+    font-size: 50px;
+    color:red;
+}
+/* for providing spacing we give class name as same n we write */
+
+.skill-1{
+    margin: 20px;
+    padding: 10px;
+    border:  2px rgb(57, 192, 57) solid; 
+}
+.skill-h1{
+    font-size: 25px;
+}
+.skill-img{
+    height:100px;
+}
+.skill{
+    display:flex;
+    flex-direction: row;
+}
+.skills{
+    padding: 50px;
+}
+
+.achieve-h1{
+    text-align: center;
+    font-size: 30px;
+    color:red;
+    margin: 350px 350px 0px 350px;
+}
+
+.achieve-prize{
+    text-align: center;
+    color: aqua;
+}
+
+.contact{
+    text-align: center;
+    width:auto;
+    background-color:#191919;  
+    width:100%;
+}
+.ser-h1{
+    font-size: 40px;
+    color:red;
+}
+.contact-info{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.social-icon-img{
+    height: 50px;
+     padding: 20px; 
+}
+.test-logo{
+    height:50px;
+}
+
